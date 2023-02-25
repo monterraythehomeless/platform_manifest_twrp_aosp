@@ -7,7 +7,10 @@
     <remote name="LineageOS"
             fetch="https://github.com/LineageOS"
             review="https://review.lineageos.org"/>
-
+    
+<remote name="me"
+            fetch="https://github.com/monterraythehomeless"/>
+    
     <remote name="github"
             fetch="https://github.com"/>
 
@@ -94,6 +97,8 @@
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS" revision="lineage-19.1"/>
 
     <!-- Common qcom repos -->
+    
+    <project name="android_device_motorola_tonga" path="device/motorola" remote="me"/>
     <project name="android_device_qcom_common" path="device/qcom/common" remote="TeamWin" revision="android-12.1" />
     <project name="android_device_qcom_twrp-common" path="device/qcom/twrp-common" remote="TeamWin" revision="android-12.1" />
     <project name="android_hardware_qcom_bootctrl" path="hardware/qcom-caf/bootctrl" remote="LineageOS" revision="lineage-19.1-caf" />
