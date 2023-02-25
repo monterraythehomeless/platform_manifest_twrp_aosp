@@ -98,7 +98,7 @@
 
     <!-- Common qcom repos -->
     
-    <project name="android_device_motorola_tonga" path="device/motorola" remote="me"/>
+    <project name="android_device_motorola_tonga" path="device/motorola/tonga" remote="me"/>
     <project name="android_device_qcom_common" path="device/qcom/common" remote="TeamWin" revision="android-12.1" />
     <project name="android_device_qcom_twrp-common" path="device/qcom/twrp-common" remote="TeamWin" revision="android-12.1" />
     <project name="android_hardware_qcom_bootctrl" path="hardware/qcom-caf/bootctrl" remote="LineageOS" revision="lineage-19.1-caf" />
